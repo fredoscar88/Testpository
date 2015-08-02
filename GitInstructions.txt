@@ -1,0 +1,12 @@
+-BASIC-
+When adding new files to a git repository, place them in the local repository location. <NOTE: Learn about committing to different branches>
+
+Step 1: In the windows client, right click the repository name that is on the left side, and open Git Shell.
+Step 2: Enter in 'git add <filename, include extension>'
+Step 3: Enter in 'git commit'
+Step 4: Type in a commit message, exit and save
+Step 5: In the client, sync up. You should be able to view it online.
+
+When updating from the site
+
+Step 1: Hit sync. yeah.
