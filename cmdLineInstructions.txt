@@ -2,6 +2,8 @@ Shift right click in windows explorer, hit "Open cmd line in this location" (or 
 
 run 'javac <filename>.java' to compile code
 
+run 'javac *.java' inside the package to compile all of the classes. The above works if there's only one class and no dependencies.
+
 When running a .class, you must have that class in a file hierarchy that matches its package. For example, Main.class in package
 henry.farr must be in the 'farr' folder which must be in the 'henry' folder, and where the henry folder is located is where the classpath
 must be to run the class. In this example enter in 'java -cp . henry.farr.Main' to run the Main class.
