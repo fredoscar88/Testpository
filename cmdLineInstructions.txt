@@ -1,0 +1,10 @@
+Shift right click in windows explorer, hit "Open cmd line in this location" (or whatever it says)
+
+run 'javac <filename>.java' to compile code
+
+When running a .class, you must have that class in a file hierarchy that matches its package. For example, Main.class in package
+henry.farr must be in the 'farr' folder which must be in the 'henry' folder, and where the henry folder is located is where the classpath
+must be to run the class. In this example enter in 'java -cp . henry.farr.Main' to run the Main class.
+
+We have some good bookmarks about class paths. The path environment variable is already set but will need updating when the next jdk
+comes around.
